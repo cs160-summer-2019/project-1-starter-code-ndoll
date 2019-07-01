@@ -1,3 +1,102 @@
-li {
-    color: green;
+body {
+  text-align: center;
+  color: #fff;
+  background-color: #7AB5D3;
+}
+a {
+  color: #fff;
+}
+.nav {
+  background-color: #85AFDD;
+  display: block;
+  padding: 10px 0px;
+}
+#search {
+  color: #6B6B6B;
+  background-color: #fff;
+  border: 2px solid black;
+  padding: 7px 0;
+  text-align: left;
+}
+#search img {
+  height: 44px;
+  padding-left: 8px;
+  padding-right: 8px;
+}
+#selected {
+  background-color: #7E90A3;
+  border-bottom: 4px solid #BEDAF4;
+}
+.temperature {
+  font-size: 9em;
+  margin: 0 0 -3% 0;
+}
+.temperature:after {
+  content: '\00b0';
+  margin-right: -0.3em;
+}
+.date {
+  font-size: 1.8em;
+  padding-top: 2%;
+}
+.weathericon {
+  margin-top: 5%;
+}
+#hourly {
+  padding: 5%;
+}
+#hourly .weathericon {
+  width: 60px;
+  margin-top: 0;
+}
+#hourly .hour {
+  padding: 0;
+  text-transform: uppercase;
+}
+#hourly .temperature {
+  font-size: 1.5em;
+}
+#hourly .precip {
+  padding: 0;
+  color: lightblue;
+  font-size: 1.5em;
+}
+#compare {
+  font-weight: 300;
+  margin-bottom: 30%;
+}
+#compare .name {
+  font-size: 3em;
+  text-align: left;
+}
+#compare .temperature {
+  font-size: 3em;
+}
+#compare .weathericon {
+  height: 100px;
+  margin: 0;
+}
+.citycurrent {
+  border-bottom: 2px solid #89CBE5;
+  padding: 5px;
+}
+.city {
+  width: 55%;
+}
+.info {
+  width: 15%;
+}
+.alert {
+  width: 15%;
+  margin: 0;
+}
+#time {
+  font-weight: 400;
+  font-size: 1.8em;
+  border-top: 2px solid #89CBE5;
+  color: #E2E2E2;
+}
+#time .selectedtime {
+  font-size: 2.2em;
+  color: #fff;
 }

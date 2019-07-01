@@ -10,6 +10,105 @@
 
 </head>
 <body>
-	<!-- your comparison interface with alert here -->
+	<!-- Search bar -->
+  <div id="search" class="container">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Hamburger_icon.svg/1024px-Hamburger_icon.svg.png" style="float:left">
+    <img src="https://puu.sh/DN4dH/51cf7f482c.png" style="float:right">
+    <h2>Oakland, CA</h2>
+  </div>
+  <!-- Navigation bar -->
+  <div class="container">
+    <div class="row">
+      <div class="col nav">
+        <h4><a href="#">Today</a></h4>
+      </div>
+      <div class="col nav" id="selected">
+        <h4><a href="#">Compare</a></h4>
+      </div>
+    </div>
+  </div>
+  <!-- List of cities -->
+  <div id="compare" class="container">
+    <div class="row citycurrent align-items-center">
+      <div class="city">
+        <p class="name">Oakland, CA</p>
+      </div>
+      <div class="alert"></div>
+      <div class="info">
+        <p class="temperature">23</p>
+      </div>
+      <div class="info">
+        <img class="weathericon" src="https://puu.sh/DN3zZ/9b8aae4f64.png">
+      </div>
+    </div>
+    <div class="row citycurrent align-items-center">
+      <div class="city">
+        <p class="name">Berkeley, CA</p>
+      </div>
+      <div class="alert"></div>
+      <div class="info">
+        <p class="temperature">24</p>
+      </div>
+      <div class="info">
+        <img class="weathericon" src="https://puu.sh/DN3zZ/9b8aae4f64.png">
+      </div>
+    </div>
+    <div class="row citycurrent align-items-center">
+      <div class="city">
+        <p class="name">Las Vegas, NV</p>
+      </div>
+      <div class="alert"><img src="https://puu.sh/DN0mp/dca68e9bd9.png" style="width:60px"></div>
+      <div class="info">
+        <p class="temperature">46</p>
+      </div>
+      <div class="info">
+        <img class="weathericon" src="https://puu.sh/DN3zZ/9b8aae4f64.png">
+      </div>
+    </div>
+    <div class="row citycurrent align-items-center">
+      <div class="city">
+        <p class="name">Seoul, Korea</p>
+      </div>
+      <div class="alert"></div>
+      <div class="info">
+        <p class="temperature">17</p>
+      </div>
+      <div class="info">
+        <img class="weathericon" src="https://puu.sh/DN59x/5bd60c07df.png">
+      </div>
+    </div>
+    <div class="row citycurrent align-items-center">
+      <div class="city">
+        <p class="name">London, UK</p>
+      </div>
+      <div class="alert"></div>
+      <div class="info">
+        <p class="temperature">13</p>
+      </div>
+      <div class="info">
+        <img class="weathericon" src="https://puu.sh/DN3AD/c212eed376.png">
+      </div>
+    </div>
+  </div>
+  <!-- Time -->
+  <div id="time" class="container">
+    <div class="row align-items-end">
+      <div class="col">
+        <p>1PM</p>
+      </div>
+      <div class="col">
+        <p>2PM</p>
+      </div>
+      <div class="col selectedtime">
+        <p>3PM</p>
+      </div>
+      <div class="col">
+        <p>4PM</p>
+      </div>
+      <div class="col">
+        <p>5PM</p>
+      </div>
+    </div>
+  </div>
 </body>
 </html>
